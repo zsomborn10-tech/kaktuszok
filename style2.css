@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+
+main{
+    max-width: 1000px;
+    margin: auto;
+}
+
+nav ul{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: left;
+    list-style: none;
+    gap: 30px;
+}
+
+article{
+    margin-left: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+}
+
+img{
+    border: solid rgb(5, 93, 175);
+    border-radius: 10px;
+}
